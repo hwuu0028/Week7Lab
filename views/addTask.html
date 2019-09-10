@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <H1>
+        Add New Task
+    </H1>
+
+    <body>
+        <img src="logo.png" href="styles.css">
+
+
+        <form action="/addNewTask" method = "POST">
+            Task name
+            <input type="text" name="taskName"/></br>
+            Assign to
+            <input type="text" name="assignTo"/></br>
+            Due date
+            <input type="date" name="dueDate"/></br>
+            Task Status
+            <input type="radio" name="taskStatus" value="Complete"> Complete
+            <input type="radio" name="taskStatus" value="InProgress"> In Progress<br>
+            Task Description
+            <input type="text" name="taskDesc"/></br>
+            
+            <button>Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,68 @@
+<html>
+    <head>        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <h1>        List of Developers
+    </h1>
+
+      <body>
+          <table>
+              <tr>
+                  <th>
+                      Developer ID
+                  </th>
+                  <th>
+                      Developer First Name
+                  </th>
+                  <th>
+                      Developer Last Name
+                  </th>
+                  <th>
+                      Level
+                  </th>
+                  <th>
+                      State
+                  </th>
+                  <th>
+                      Suburb
+                  </th>
+                  <th>
+                      Street
+                  </th>
+                  <th>
+                      Unit
+                  </th>
+              </tr>
+              <% for (let i =0; i<developer.length; i++){%>
+                  <tr>
+                      <td>
+                          <%=developer[i]._id%>
+                      </td>
+                      <td>
+                          <%=developer[i].name.firstName%>
+                      </td>
+                      <td>
+                          <%=developer[i].name.lastName%>
+                      </td>
+                      <td>
+                          <%=developer[i].level%>
+                      </td>
+                      <td>
+                          <%=developer[i].address.state%>
+                      </td>
+                      <td>
+                          <%=developer[i].address.suburb%>
+                      </td>
+                      <td>
+                          <%=developer[i].address.street%>
+                      </td>
+                      <td>
+                          <%=developer[i].address.unit%>
+                      </td>
+                  </tr>
+
+            <%  }%>
+          </table>
+      </body>
+
+</html>

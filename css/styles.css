@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(192, 238, 255);
+}
+h1 {
+    color: rgb(0, 75, 100);
+}
+button{
+    color: rgb(0, 75, 100);
+    background: transparent;
+    border: 2px solid rgb(0, 75, 100);
+    border-radius: 6px;
+    
+}
+a{
+    color: rgb(0, 75, 100);
+    border: 2px solid rgb(0, 75, 100);
+    background: transparent;
+    border-radius: 6px;
+}
+
+table{
+        border: 1px solid rgb(0, 75, 100);
+}
+
+th,td{
+    border: 1px solid rgb(0, 75, 100);
+}
+img{
+    width: 50%;
+    height: auto;
+}
+input{
+    color: rgb(0, 75, 100);
+
+}

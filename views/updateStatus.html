@@ -1,0 +1,17 @@
+<html>
+    <head>
+            <link rel="stylesheet" href="styles.css">
+        Update Task Status
+    </head>
+    <body>
+
+        <form action="/updateStatusData" method="POST">
+            Task ID
+            <input type="text" name="taskID"/></br>
+            New Status (InProgress or Complete)
+            <input type="radio" name="taskStatus" value="Complete"> Complete
+            <input type="radio" name="taskStatus" value="InProgress"> In Progress<br>
+            <button>Submit</button>
+        </form>
+    </body>
+</html>
